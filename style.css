@@ -1,20 +1,30 @@
 /*/Body resets browser padding and margin defaults and controls background colour of webpage/*/
 body {
+  text-align: center;
   padding: 0;
   margin: 0;
-  background-color: #000;
+  background-color: #000000;
 }
+/*/Styles that effect the font, size, colour and alignment of text. /*/
+h1{
+  font-family: helvetica;
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
 
+}
+h2{
+  font-family: helvetica;
+  font-size: 10px;
+  color: white;
+}
 /*/My container links my canvas in sketch to the html page and margin positions
 used to centre the canvas on screen./*/
 #myContainer {
-  width: 594px;
-  margin: 0px auto;
+  width: 50px auto;
+  margin: 50px auto;
 }
 
-/*/Syles that effect the alignment, colour and font of text. /*/
-#title {
-  text-align: center;
-  color:#fff;
-  font-family: monospace;
+
+
 }
